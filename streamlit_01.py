@@ -7,3 +7,4 @@ with st.form ('Frame'):
     collection = st.number_input('Digite a coleção de sua escolha:')
     budget = st.number_input('Digite o valor do orçamento do filme:') 
     Time_taken =  st.number_input('Digite a duração do filme:')
+    botao = st.form_submit_button('Enviar Informações')
