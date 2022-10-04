@@ -3,6 +3,10 @@ import numpy as np
 import streamlit as st
 import pickle
 
+pickle_in = open('oscar.pkl', 'rb')
+oscar = pickle.load(pickle_in)
+st.title("Previsão de prêmio")
+
 with st.form ('Frame'):
     collection = st.number_input('Digite a coleção de sua escolha:')
     budget = st.number_input('Digite o valor do orçamento do filme:') 
