@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-from sklearn import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 pickle_in = open('oscar.pkl', 'rb')
