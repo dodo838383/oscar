@@ -12,3 +12,10 @@ with st.form ('Frame'):
     budget = st.number_input('Digite o valor do orçamento do filme:') 
     Time_taken =  st.number_input('Digite a duração do filme:')
     botao = st.form_submit_button('Enviar Informações')
+
+def premio(collection, budget, Time_taken, modelo=oscar):
+    var_1 = oscar.predict(collection, budget, Time_taken, oscar)
+    return var_1
+
+if botao:
+    st.write(var_1)
