@@ -1,6 +1,5 @@
 numpy
 pandas
 sklearn
-seaborn
 matplotlib
 pickle5
